@@ -1,0 +1,11 @@
+package LLD.DesignPatterns.behavioralDP.command;
+
+public class AC {
+
+    public void on(){
+        System.out.println("AC on...");
+    }
+    public void off(){
+        System.out.println("AC off...");
+    }
+}
