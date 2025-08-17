@@ -15,5 +15,7 @@ public class AuctionMediatorDemo {
         bidder2.placeBid(502);
         bidder3.placeBid(700);
         bidder2.placeBid(702);
+
+        auctionHouse.announceWinner();
     }
 }
